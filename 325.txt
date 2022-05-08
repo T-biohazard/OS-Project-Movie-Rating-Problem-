@@ -1,0 +1,30 @@
+
+first of All,
+Sreach()->In this function the perameter named "title"
+will be passed.
+here, pthread_self () function returns the ID of the calling 
+thread.
+now,If the mutex is currently unlocked, it becomes locked
+and owned by the calling thread, and pthread_mutex_lock returns 
+immediately. 
+finally it will check is there total numbres of keywords, if 
+(count>=5) the remailning processes will put to sleep. the it will 
+continue its searching process. 
+
+
+info()-> In this function we used some fixed character using if,
+else condition for searching purpuse.
+Such as, if we input "star" it will print some movies name including the 
+word "star" with details.
+
+
+
+main()-> firstly it will take integer values 1. to enter
+numb of searching process and 2 to exicute.
+if we choose 1, will take the number of searching proceses.
+after entiring keyword, for each keyword the thread will be
+created.finally, it will call search pointer func and show 
+the searching process.
+
+
+                                                                                        
